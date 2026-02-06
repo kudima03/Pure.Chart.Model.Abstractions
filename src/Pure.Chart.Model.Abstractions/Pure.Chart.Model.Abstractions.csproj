@@ -4,4 +4,12 @@
     <LangVersion>latest</LangVersion>
     <IsAotCompatible>true</IsAotCompatible>
   </PropertyGroup>
+  <PropertyGroup>
+    <PackageId>Pure.Chart.Model.Abstractions</PackageId>
+    <RootNamespace>Pure.Chart.Model.Abstractions</RootNamespace>
+    <AssemblyName>Pure.Chart.Model.Abstractions</AssemblyName>
+    <Authors>Dmitry Kurochkin</Authors>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/kudima03/Pure.Chart.Model.Abstractions</PackageProjectUrl>
+  </PropertyGroup>
 </Project>
