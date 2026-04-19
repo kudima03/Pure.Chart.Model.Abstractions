@@ -2,7 +2,7 @@ using Pure.Primitives.Abstractions.String;
 
 namespace Pure.Chart.Model.Abstractions;
 
-public interface ISeries
+public interface IChartSeries
 {
     public IString Legend { get; }
 
