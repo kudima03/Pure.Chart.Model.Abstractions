@@ -15,5 +15,5 @@ public interface IChart
 
     public IAxis YAxis { get; }
 
-    public IEnumerable<ISeries> Series { get; }
+    public IEnumerable<IChartSeries> Series { get; }
 }
