@@ -11,7 +11,7 @@ dotnet restore                                # restore dependencies
 dotnet build --no-restore -warnaserror        # build (treats warnings as errors)
 dotnet format --verify-no-changes             # check code style (CI enforces this)
 dotnet format && csharpier format .           # auto-fix code style
-dotnet pack --configuration Release -p:PackageVersion=<version> --output .  # pack NuGet
+dotnet pack --configuration Release -p:Version=<version> --output .  # pack NuGet
 ```
 
 There are no test projects in this repository — the CI pipeline only builds and checks formatting.
