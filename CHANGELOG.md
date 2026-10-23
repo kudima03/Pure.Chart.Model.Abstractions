@@ -6,6 +6,22 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ---
 
+## [0.1.0-preview.2.0.0] — 2026-10-23
+
+### Added
+
+- **`IChartSeries.LineType`** — `IString` style used to draw the series
+  line (e.g. `solid`, `dashed`, `dotted`).
+- `README.md` is now packed into the NuGet package.
+
+### Changed
+
+- **Breaking:** implementers of `IChartSeries` must now provide
+  `LineType`.
+- The assembly version is now derived from the release tag's major
+  version (`0.0.0.0` for `0.x` releases) instead of the SDK default
+  `1.0.0.0`; the file version is the tag's numeric part.
+
 ## [0.1.0-preview.1.0.0] — 2026-04-19
 
 ### Changed
