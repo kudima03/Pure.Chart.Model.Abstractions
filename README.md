@@ -17,7 +17,7 @@ Chart model interfaces for the **Pure** ecosystem — immutable, composable abst
 |-----------|-----------|-------------|
 | `IChart` | `Pure.Chart.Model.Abstractions` | Root chart model — title, description, type, axes, and series |
 | `IChartType` | `Pure.Chart.Model.Abstractions` | Named category of chart (e.g. bar, line, pie) |
-| `IChartSeries` | `Pure.Chart.Model.Abstractions` | A single data series — legend label and axis source bindings |
+| `IChartSeries` | `Pure.Chart.Model.Abstractions` | A single data series — legend label, axis source bindings, and line type |
 | `IAxis` | `Pure.Chart.Model.Abstractions` | A chart axis with a legend label |
 
 ## Design Principles

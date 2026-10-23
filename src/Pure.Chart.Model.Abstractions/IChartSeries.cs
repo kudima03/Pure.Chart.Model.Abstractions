@@ -9,4 +9,6 @@ public interface IChartSeries
     public IString XAxisSource { get; }
 
     public IString YAxisSource { get; }
+
+    public IString LineType { get; }
 }

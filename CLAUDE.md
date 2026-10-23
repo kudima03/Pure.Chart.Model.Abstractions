@@ -26,7 +26,7 @@ This is an **interfaces-only NuGet library** — no implementations, no tests. E
 
 - `IChart` — root chart model; exposes `Title`, `Description` (`IString`), `Type` (`IChartType`), `XAxis`/`YAxis` (`IAxis`), and `Series` (`IEnumerable<IChartSeries>`)
 - `IChartType` — names a chart category via a single `Name` (`IString`) property
-- `IChartSeries` — represents one data series; `Legend`, `XAxisSource`, `YAxisSource` are all `IString`
+- `IChartSeries` — represents one data series; `Legend`, `XAxisSource`, `YAxisSource`, `LineType` are all `IString`
 - `IAxis` — represents a chart axis with a `Legend` (`IString`) label
 
 All string-typed properties use `IString` from `Pure.Primitives.Abstractions` rather than `System.String`, keeping the model decoupled from concrete string representations.
