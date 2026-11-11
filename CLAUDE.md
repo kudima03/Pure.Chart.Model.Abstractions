@@ -31,7 +31,7 @@ This is an **interfaces-only NuGet library** — no implementations, no tests. E
 
 All string-typed properties use `IString` from `Pure.Primitives.Abstractions` rather than `System.String`, keeping the model decoupled from concrete string representations.
 
-**Multi-targeting:** `net7.0`, `net8.0`, `net9.0`, `net10.0`. All interfaces must remain AOT-compatible (`IsAotCompatible = true`).
+**Multi-targeting:** `net7.0`, `net8.0`, `net9.0`, `net10.0`, `net11.0`. All interfaces must remain AOT-compatible (`IsAotCompatible = true`).
 
 **Package validation:** `EnablePackageValidation = true` with `PackageValidationBaselineVersion = 0.1.0-preview.2.0.0`. Any API-breaking change (removing a member, changing a type) will fail the build. Additions must be purely additive.
 

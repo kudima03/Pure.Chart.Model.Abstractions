@@ -37,6 +37,7 @@ Chart model interfaces for the **Pure** ecosystem — immutable, composable abst
 - .NET 8
 - .NET 9
 - .NET 10
+- .NET 11
 
 ## Installation
 
