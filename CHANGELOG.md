@@ -6,6 +6,17 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ---
 
+## [0.1.0-preview.2.1.0] — 2026-11-11
+
+### Added
+
+- Support for `net11.0` (the package now targets `net7.0` through
+  `net11.0`).
+
+### Changed
+
+- Updated `Pure.Primitives.Abstractions` to 4.4.0.
+
 ## [0.1.0-preview.2.0.0] — 2026-10-23
 
 ### Added
